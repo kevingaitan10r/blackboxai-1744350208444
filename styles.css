@@ -1,0 +1,125 @@
+/* Animations */
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Quiz Styles */
+.quiz-question {
+    transition: all 0.3s ease;
+}
+
+.quiz-question:hover {
+    background-color: #f8fafc;
+    border-radius: 0.5rem;
+}
+
+.form-radio {
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: all 0.2s ease;
+}
+
+.form-radio:checked {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* Hover Effects */
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Session Card Styles */
+.session-card {
+    transition: all 0.3s ease;
+}
+
+.session-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Progress Bar Animation */
+.progress-bar {
+    transition: width 0.5s ease-in-out;
+}
+
+/* Bottom Navigation Links */
+.bottom-nav-link {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.bottom-nav-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Modal Animation */
+#resultModal {
+    transition: opacity 0.3s ease;
+}
+
+#resultModal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#resultModal:not(.hidden) {
+    opacity: 1;
+}
+
+/* Quiz Submit Button */
+.quiz-submit {
+    position: relative;
+    overflow: hidden;
+}
+
+.quiz-submit::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.quiz-submit:active::after {
+    width: 200px;
+    height: 200px;
+}
+
+/* Completed Session Indicator */
+.session-completed {
+    color: #059669;
+    background-color: #d1fae5;
+}
+
+/* Session Progress Icons */
+.session-icon {
+    transition: all 0.3s ease;
+}
+
+.session-icon.completed {
+    background-color: #059669;
+    color: white;
+}
