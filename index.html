@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Design Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 text-white p-4 fixed w-full top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">UI/UX Design Academy</h1>
+            <a href="#" class="hover:text-blue-200"><i class="fas fa-bell"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto pt-20 px-4 animate-fadeIn">
+        <!-- Welcome Section -->
+        <section class="text-center py-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Aprende Diseño UI/UX</h2>
+            <p class="text-gray-600 mb-8">Domina el arte del diseño de interfaces y la experiencia de usuario</p>
+        </section>
+
+        <!-- Course Sessions Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <!-- Session 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-laptop-code text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 1</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Introducción al Diseño de Interfaces</h4>
+                    <p class="text-gray-600 mb-4">Fundamentos básicos del diseño de interfaces y su importancia.</p>
+                    <a href="sessions/session1.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-users text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 2</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Diseño Centrado en el Usuario</h4>
+                    <p class="text-gray-600 mb-4">Metodologías y principios del diseño centrado en el usuario.</p>
+                    <a href="sessions/session2.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-lightbulb text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 3</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Design Thinking</h4>
+                    <p class="text-gray-600 mb-4">Proceso creativo y metodología Design Thinking.</p>
+                    <a href="sessions/session3.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 4 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-th-large text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 4</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Paradigmas de Diseño</h4>
+                    <p class="text-gray-600 mb-4">Diferentes enfoques y paradigmas en el diseño de interfaces.</p>
+                    <a href="sessions/session4.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 5 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-pencil-ruler text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 5</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Prototipado de Interfaces</h4>
+                    <p class="text-gray-600 mb-4">Técnicas y herramientas para el prototipado de interfaces.</p>
+                    <a href="sessions/session5.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 6 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-check-circle text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 6</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Evaluación de Usabilidad</h4>
+                    <p class="text-gray-600 mb-4">Métodos y técnicas para evaluar la usabilidad de interfaces.</p>
+                    <a href="sessions/session6.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 7 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-layer-group text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 7</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Sistemas de Diseño</h4>
+                    <p class="text-gray-600 mb-4">Creación y gestión de sistemas de diseño efectivos.</p>
+                    <a href="sessions/session7.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Session 8 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow session-card">
+                <div class="bg-blue-500 h-2"></div>
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-desktop text-2xl text-blue-500 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Sesión 8</h3>
+                    </div>
+                    <h4 class="text-lg font-medium mb-3">Interacción Persona-Ordenador (HCI)</h4>
+                    <p class="text-gray-600 mb-4">Fundamentos de la interacción entre humanos y computadoras.</p>
+                    <a href="sessions/session8.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover-effect">
+                        Comenzar <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Section -->
+        <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h3 class="text-xl font-semibold mb-4">Tu Progreso</h3>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full progress-bar" style="width: 0%"></div>
+            </div>
+            <p class="text-gray-600 mt-2"><span id="completedSessions">0</span> de 8 sesiones completadas</p>
+            
+            <!-- Detailed Progress -->
+            <div class="mt-6 space-y-4">
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session1Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-laptop-code text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 1: Introducción al Diseño de Interfaces</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session1Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session2Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-users text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 2: Diseño Centrado en el Usuario</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session2Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session3Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-lightbulb text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 3: Design Thinking</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session3Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session4Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-th-large text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 4: Paradigmas de Diseño</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session4Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session5Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-pencil-ruler text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 5: Prototipado de Interfaces</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session5Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session6Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-check-circle text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 6: Evaluación de Usabilidad</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session6Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session7Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-layer-group text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 7: Sistemas de Diseño</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session7Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center">
+                        <div id="session8Icon" class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mr-3">
+                            <i class="fas fa-desktop text-gray-400"></i>
+                        </div>
+                        <span class="text-sm text-gray-600">Sesión 8: Interacción Persona-Ordenador (HCI)</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span id="session8Score" class="text-sm font-medium px-3 py-1 rounded-full bg-gray-200">No completado</span>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                // Function to update session status
+                function updateSessionStatus(sessionNum, completed, score) {
+                    const iconElement = document.getElementById(`session${sessionNum}Icon`);
+                    const scoreElement = document.getElementById(`session${sessionNum}Score`);
+                    
+                    if (completed === 'true') {
+                        iconElement.classList.remove('bg-gray-200');
+                        iconElement.classList.add('bg-green-500');
+                        iconElement.querySelector('i').classList.remove('text-gray-400');
+                        iconElement.querySelector('i').classList.add('text-white');
+                        
+                        scoreElement.classList.remove('bg-gray-200');
+                        scoreElement.classList.add('bg-green-100', 'text-green-800');
+                        scoreElement.textContent = `${score}% completado`;
+                    }
+                }
+
+                // Update progress when page loads
+                document.addEventListener('DOMContentLoaded', function() {
+                    let completedCount = 0;
+                    let totalScore = 0;
+                    
+                    // Check each session's completion
+                    for (let i = 1; i <= 8; i++) {
+                        const completed = localStorage.getItem(`session${i}_completed`);
+                        const score = localStorage.getItem(`session${i}_score`);
+                        
+                        if (completed === 'true') {
+                            completedCount++;
+                            totalScore += parseInt(score || 0);
+                            updateSessionStatus(i, completed, score);
+                        }
+                    }
+                    
+                    // Update progress bar and count
+                    const progressPercentage = (completedCount / 8) * 100;
+                    document.getElementById('progressBar').style.width = `${progressPercentage}%`;
+                    document.getElementById('completedSessions').textContent = completedCount;
+                });
+            </script>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="fixed bottom-0 w-full bg-white border-t border-gray-200 p-4">
+        <div class="container mx-auto flex justify-around">
+            <a href="#" class="text-blue-500 flex flex-col items-center">
+                <i class="fas fa-home text-xl"></i>
+                <span class="text-xs mt-1">Inicio</span>
+            </a>
+            <a href="#" class="text-gray-500 flex flex-col items-center">
+                <i class="fas fa-trophy text-xl"></i>
+                <span class="text-xs mt-1">Logros</span>
+            </a>
+        </div>
+    </nav>
+</body>
+</html>
